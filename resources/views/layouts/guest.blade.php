@@ -21,6 +21,8 @@
                     <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
                 </a>
             </div>
+            <div><a class="font-bold hover:text-emerald-600 transition"
+                href="{{ route('articles.index') }}">Tweets</a></div>
 
             <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
                 {{ $slot }}
